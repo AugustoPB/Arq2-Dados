@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Augusto/Desktop/TP1/simplex_assincrona/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Augusto/Desktop/TP1/simplex_assincrona/xst"
+elaborate
+-ifn tbAssincrono.prj
+-ifmt mixed

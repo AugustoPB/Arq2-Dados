@@ -1,0 +1,30 @@
+Command line:
+   tbAssincrono_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53739
+
+Thu Mar 24 20:17:23 2016
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 844.481 Meg
+
+ Total Signals          : 44
+ Total Nets             : 99
+ Total Signal Drivers   : 20
+ Total Blocks           : 10
+ Total Primitive Blocks : 9
+ Total Processes        : 11
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 477
+Total Line Count : 54
+Total Line Count : 54
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 844.481 Meg
+
+Thu Mar 24 20:17:50 2016
+

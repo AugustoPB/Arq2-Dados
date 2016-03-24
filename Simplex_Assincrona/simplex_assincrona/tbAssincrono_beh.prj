@@ -1,0 +1,5 @@
+vhdl work "../Periferico.vhd"
+vhdl work "../InterfaceAssincronaPeriferico.vhd"
+vhdl work "../InterfaceAssincronaCPU.vhd"
+vhdl work "../CPU.vhd"
+vhdl work "../tbAssincrono.vhd"

@@ -1,0 +1,44 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Augusto/Desktop/TP1/simplex_assincrona/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Augusto/Desktop/TP1/simplex_assincrona/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Augusto/Desktop/TP1/CPU.vhd" in Library work.
+Architecture cpu of Entity cpu is up to date.
+Compiling vhdl file "C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd" in Library work.
+Architecture interfacecpu of Entity interfacecpu is up to date.
+Compiling vhdl file "C:/Users/Augusto/Desktop/TP1/Periferico.vhd" in Library work.
+Architecture periferico of Entity periferico is up to date.
+Compiling vhdl file "C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd" in Library work.
+Architecture interfaceperiferico of Entity interfaceperiferico is up to date.
+Compiling vhdl file "C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd" in Library work.
+Entity <tbassincrono> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd" Line 32. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd" Line 59. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> 
+
+Total memory usage is 268116 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

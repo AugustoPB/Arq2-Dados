@@ -1,0 +1,40 @@
+V3 21
+FL C:/Users/Augusto/Desktop/TP1/CPU.vhd 2015/03/09.09:41:24 P.20131013
+EN work/CPU 1458774619 FL C:/Users/Augusto/Desktop/TP1/CPU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CPU/CPU 1458774620 \
+      FL C:/Users/Augusto/Desktop/TP1/CPU.vhd EN work/CPU 1458774619
+FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd 2016/03/23.20:07:01 P.20131013
+PH work/definicoesTransmissaoAssincronaCPU 1458774621 \
+      FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd \
+      PB ieee/std_logic_1164 1381692176
+EN work/InterfaceCPU 1458774622 \
+      FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd \
+      PB ieee/std_logic_1164 1381692176 \
+      PH work/definicoesTransmissaoAssincronaCPU 1458774621
+AR work/InterfaceCPU/InterfaceCPU 1458774623 \
+      FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd \
+      EN work/InterfaceCPU 1458774622
+FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd 2016/03/23.20:07:27 P.20131013
+PH work/definicoesTransmissaoAssincronaPERF 1458774626 \
+      FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd \
+      PB ieee/std_logic_1164 1381692176
+EN work/InterfacePeriferico 1458774627 \
+      FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd \
+      PB ieee/std_logic_1164 1381692176 \
+      PH work/definicoesTransmissaoAssincronaPERF 1458774626
+AR work/InterfacePeriferico/InterfacePeriferico 1458774628 \
+      FL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd \
+      EN work/InterfacePeriferico 1458774627
+FL C:/Users/Augusto/Desktop/TP1/Periferico.vhd 2015/03/09.09:41:24 P.20131013
+EN work/Periferico 1458774624 FL C:/Users/Augusto/Desktop/TP1/Periferico.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Periferico/Periferico 1458774625 \
+      FL C:/Users/Augusto/Desktop/TP1/Periferico.vhd EN work/Periferico 1458774624
+FL C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd 2016/03/09.20:41:42 P.20131013
+EN work/tbAssincrono 0 FL C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/tbAssincrono/tbAssincrono 0 \
+      FL C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd EN work/tbAssincrono 0 \
+      CP work/CPU CP work/InterfaceCPU CP work/Periferico \
+      CP work/InterfacePeriferico

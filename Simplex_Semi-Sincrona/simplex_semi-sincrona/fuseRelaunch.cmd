@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Augusto/Desktop/Simplex_Semi-Sincrona/simplex_semi-sincrona/tbSemiSincrono_isim_beh.exe" -prj "C:/Users/Augusto/Desktop/Simplex_Semi-Sincrona/simplex_semi-sincrona/tbSemiSincrono_beh.prj" "work.tbSemiSincrono" 

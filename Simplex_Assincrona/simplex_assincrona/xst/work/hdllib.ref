@@ -1,0 +1,11 @@
+PH definicoestransmissaoassincronacpu NULL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd sub00/vhpl02 1458774621
+PH definicoestransmissaoassincronaperf NULL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd sub00/vhpl07 1458774626
+EN periferico NULL C:/Users/Augusto/Desktop/TP1/Periferico.vhd sub00/vhpl05 1458774624
+EN interfaceperiferico NULL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd sub00/vhpl08 1458774627
+EN cpu NULL C:/Users/Augusto/Desktop/TP1/CPU.vhd sub00/vhpl00 1458774619
+AR interfaceperiferico interfaceperiferico C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaPeriferico.vhd sub00/vhpl09 1458774628
+AR cpu cpu C:/Users/Augusto/Desktop/TP1/CPU.vhd sub00/vhpl01 1458774620
+EN interfacecpu NULL C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd sub00/vhpl03 1458774622
+EN tbassincrono NULL C:/Users/Augusto/Desktop/TP1/tbAssincrono.vhd sub00/vhpl10 1458774629
+AR interfacecpu interfacecpu C:/Users/Augusto/Desktop/TP1/InterfaceAssincronaCPU.vhd sub00/vhpl04 1458774623
+AR periferico periferico C:/Users/Augusto/Desktop/TP1/Periferico.vhd sub00/vhpl06 1458774625

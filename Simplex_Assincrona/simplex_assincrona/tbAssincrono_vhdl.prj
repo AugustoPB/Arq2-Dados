@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Augusto\Desktop\TP1\Periferico.vhd"
+vhdl work "C:\Users\Augusto\Desktop\TP1\InterfaceAssincronaPeriferico.vhd"
+vhdl work "C:\Users\Augusto\Desktop\TP1\InterfaceAssincronaCPU.vhd"
+vhdl work "C:\Users\Augusto\Desktop\TP1\CPU.vhd"
+vhdl work "C:\Users\Augusto\Desktop\TP1\tbAssincrono.vhd"
