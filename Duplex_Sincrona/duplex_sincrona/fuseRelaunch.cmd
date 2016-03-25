@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.exe" -prj "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/tbSincrono_beh.prj" "work.tbSincrono" 
