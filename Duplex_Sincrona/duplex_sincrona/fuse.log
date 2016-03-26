@@ -1,13 +1,13 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.exe -prj C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/tbSincrono_beh.prj work.tbSincrono 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.exe -prj C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/tbSincrono_beh.prj work.tbSincrono 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/../InterfaceSincronaCPU.vhd" into library work
-Parsing VHDL file "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/../Periferico.vhd" into library work
-Parsing VHDL file "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/../InterfaceSincronaPeriferico.vhd" into library work
-Parsing VHDL file "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/../CPU.vhd" into library work
-Parsing VHDL file "C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/../tbSincrono.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/../Periferico.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/../InterfaceSincronaPeriferico.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/../InterfaceSincronaCPU.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/../CPU.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/../tbSincrono.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -15,14 +15,15 @@ Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
 Compiling package definicoestransmissaosincronacpu
+Compiling package definicoestransmissaosincronaper...
 Compiling architecture cpu of entity CPU [cpu_default]
 Compiling architecture interfacecpu of entity InterfaceCPU [interfacecpu_default]
 Compiling architecture periferico of entity Periferico [periferico_default]
 Compiling architecture interfaceperiferico of entity InterfacePeriferico [interfaceperiferico_default]
 Compiling architecture tbsincrono of entity tbsincrono
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
-Compiled 14 VHDL Units
-Built simulation executable C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.exe
-Fuse Memory Usage: 33948 KB
-Fuse CPU Usage: 592 ms
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.exe
+Fuse Memory Usage: 33900 KB
+Fuse CPU Usage: 717 ms

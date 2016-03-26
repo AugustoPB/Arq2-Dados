@@ -1,0 +1,5 @@
+vhdl isim_temp "../Periferico.vhd"
+vhdl isim_temp "../InterfaceSemiSincronaPeriferico.vhd"
+vhdl isim_temp "../InterfaceSemiSincronaCPU.vhd"
+vhdl isim_temp "../CPU.vhd"
+vhdl isim_temp "../tbSincrono.vhd"

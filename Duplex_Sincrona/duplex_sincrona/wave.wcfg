@@ -3,9 +3,10 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Users/Augusto/Desktop/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Sincrona/duplex_sincrona/tbSincrono_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="definicoestransmissaosincronacpu" />
+            <top_module name="definicoestransmissaosincronaperif" />
             <top_module name="std_logic_1164" />
             <top_module name="std_logic_arith" />
             <top_module name="std_logic_unsigned" />
@@ -13,7 +14,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="30" />
+   <WVObjectSize size="27" />
    <wvobject fp_name="/tbsincrono/MaquinaCPU/clock" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clock</obj_property>
       <obj_property name="ObjectShortName">clock</obj_property>
@@ -68,15 +69,9 @@
       <obj_property name="ElementShortName">estadotx</obj_property>
       <obj_property name="ObjectShortName">estadotx</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/contadorr" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">contadorr[15:0]</obj_property>
-      <obj_property name="ObjectShortName">contadorr[15:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/contadort" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">contadort[15:0]</obj_property>
-      <obj_property name="ObjectShortName">contadort[15:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/dadoready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dadoready</obj_property>
+      <obj_property name="ObjectShortName">dadoready</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfacePeriferico/clock" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clock</obj_property>
@@ -131,16 +126,6 @@
    <wvobject fp_name="/tbsincrono/InterfacePeriferico/estadotx" type="other" db_ref_id="1">
       <obj_property name="ElementShortName">estadotx</obj_property>
       <obj_property name="ObjectShortName">estadotx</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/contadorr" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">contadorr[15:0]</obj_property>
-      <obj_property name="ObjectShortName">contadorr[15:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/contadort" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">contadort[15:0]</obj_property>
-      <obj_property name="ObjectShortName">contadort[15:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/MaquinaCPU/dador" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">dador[7:0]</obj_property>
