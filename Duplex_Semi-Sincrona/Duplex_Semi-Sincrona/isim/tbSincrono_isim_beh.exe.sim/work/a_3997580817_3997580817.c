@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Duplex_Semi-Sincrona/tbSincrono.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Semi-Sincrona/tbSincrono.vhd";
 
 
 

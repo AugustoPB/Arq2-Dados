@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Duplex_Semi-Sincrona/InterfaceSemiSincronaPeriferico.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Semi-Sincrona/InterfaceSemiSincronaPeriferico.vhd";
 extern char *IEEE_P_3620187407;
 
 unsigned char ieee_p_3620187407_sub_2546382208_3965413181(char *, char *, char *, int );
@@ -146,14 +146,14 @@ static void work_a_0995218538_1375922058_p_3(char *t0)
 LAB0:    xsi_set_current_line(49, ng0);
     t2 = (t0 + 2312U);
     t3 = *((char **)t2);
-    t2 = (t0 + 10712U);
+    t2 = (t0 + 11212U);
     t4 = ieee_p_3620187407_sub_2546418145_3965413181(IEEE_P_3620187407, t3, t2, 2);
     if (t4 == 1)
         goto LAB5;
 
 LAB6:    t5 = (t0 + 2312U);
     t6 = *((char **)t5);
-    t5 = (t0 + 10712U);
+    t5 = (t0 + 11212U);
     t7 = ieee_p_3620187407_sub_2546418145_3965413181(IEEE_P_3620187407, t6, t5, 4);
     t1 = t7;
 
@@ -364,7 +364,7 @@ LAB14:    xsi_set_current_line(90, ng0);
     xsi_set_current_line(91, ng0);
     t1 = (t0 + 3592U);
     t2 = *((char **)t1);
-    t1 = (t0 + 10776U);
+    t1 = (t0 + 11276U);
     t3 = ieee_p_3620187407_sub_2546382208_3965413181(IEEE_P_3620187407, t2, t1, 2);
     if (t3 != 0)
         goto LAB29;
@@ -411,8 +411,8 @@ LAB15:    xsi_set_current_line(100, ng0);
     xsi_set_current_line(101, ng0);
     t1 = (t0 + 3272U);
     t2 = *((char **)t1);
-    t1 = (t0 + 10760U);
-    t5 = (t0 + 10886);
+    t1 = (t0 + 11260U);
+    t5 = (t0 + 11386);
     t7 = (t15 + 0U);
     t8 = (t7 + 0U);
     *((int *)t8) = 0;
@@ -443,7 +443,7 @@ LAB35:    goto LAB10;
 LAB16:    xsi_set_current_line(108, ng0);
     t1 = (t0 + 3592U);
     t2 = *((char **)t1);
-    t1 = (t0 + 10776U);
+    t1 = (t0 + 11276U);
     t3 = ieee_p_3620187407_sub_2546382208_3965413181(IEEE_P_3620187407, t2, t1, 7);
     if (t3 != 0)
         goto LAB37;
@@ -500,8 +500,8 @@ LAB17:    xsi_set_current_line(67, ng0);
 LAB20:    xsi_set_current_line(73, ng0);
     t1 = (t0 + 3752U);
     t5 = *((char **)t1);
-    t1 = (t0 + 10792U);
-    t6 = (t0 + 10878);
+    t1 = (t0 + 11292U);
+    t6 = (t0 + 11378);
     t8 = (t15 + 0U);
     t9 = (t8 + 0U);
     *((int *)t9) = 0;
@@ -576,7 +576,7 @@ LAB26:    xsi_set_current_line(85, ng0);
 LAB29:    xsi_set_current_line(92, ng0);
     t5 = (t0 + 3592U);
     t6 = *((char **)t5);
-    t5 = (t0 + 10776U);
+    t5 = (t0 + 11276U);
     t7 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t15, t6, t5, 1);
     t8 = (t15 + 12U);
     t17 = *((unsigned int *)t8);
@@ -610,7 +610,7 @@ LAB34:    xsi_set_current_line(102, ng0);
 LAB37:    xsi_set_current_line(109, ng0);
     t5 = (t0 + 3592U);
     t6 = *((char **)t5);
-    t5 = (t0 + 10776U);
+    t5 = (t0 + 11276U);
     t7 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t15, t6, t5, 1);
     t8 = (t15 + 12U);
     t17 = *((unsigned int *)t8);

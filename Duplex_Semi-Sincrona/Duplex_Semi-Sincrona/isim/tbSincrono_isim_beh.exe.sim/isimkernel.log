@@ -2,14 +2,14 @@ Command line:
    tbSincrono_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52279
+     -socket  54496
 
-Fri Mar 25 23:36:13 2016
+Sat Mar 26 01:54:56 2016
 
 
- Elaboration Time: 0.0625 sec
+ Elaboration Time: 0.078125 sec
 
- Current Memory Usage: 844.521 Meg
+ Current Memory Usage: 844.513 Meg
 
  Total Signals          : 78
  Total Nets             : 240
@@ -21,11 +21,10 @@ Fri Mar 25 23:36:13 2016
  Total Scalar Nets and Variables : 618
 Total Line Count : 112
 Total Line Count : 112
-Total Line Count : 112
 
- Total Simulation Time: 3.07813 sec
+ Total Simulation Time: 0.203125 sec
 
- Current Memory Usage: 687.235 Meg
+ Current Memory Usage: 844.513 Meg
 
-Fri Mar 25 23:41:58 2016
+Sat Mar 26 01:55:12 2016
 

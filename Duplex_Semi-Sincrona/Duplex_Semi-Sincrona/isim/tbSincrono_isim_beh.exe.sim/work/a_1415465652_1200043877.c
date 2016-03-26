@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Duplex_Semi-Sincrona/CPU.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Semi-Sincrona/CPU.vhd";
 extern char *IEEE_P_3620187407;
 
 unsigned char ieee_p_3620187407_sub_2546382208_3965413181(char *, char *, char *, int );
@@ -106,7 +106,7 @@ LAB3:    t1 = (t0 + 4624);
 
 LAB1:    return;
 LAB2:    xsi_set_current_line(32, ng0);
-    t1 = (t0 + 7556);
+    t1 = (t0 + 7876);
     t6 = (t0 + 4784);
     t7 = (t6 + 56U);
     t8 = *((char **)t7);
@@ -178,7 +178,7 @@ LAB10:    xsi_set_current_line(37, ng0);
     xsi_set_current_line(38, ng0);
     t1 = (t0 + 2152U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7424U);
+    t1 = (t0 + 7744U);
     t5 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t19, t2, t1, 1);
     t6 = (t19 + 12U);
     t20 = *((unsigned int *)t6);
@@ -197,7 +197,7 @@ LAB17:    t7 = (t0 + 4784);
     xsi_set_current_line(39, ng0);
     t1 = (t0 + 2472U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7456U);
+    t1 = (t0 + 7776U);
     t5 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t19, t2, t1, 1);
     t6 = (t19 + 12U);
     t20 = *((unsigned int *)t6);
@@ -217,7 +217,7 @@ LAB19:    t7 = (t0 + 4912);
 
 LAB13:    t2 = (t0 + 2472U);
     t7 = *((char **)t2);
-    t2 = (t0 + 7456U);
+    t2 = (t0 + 7776U);
     t16 = ieee_p_3620187407_sub_2546382208_3965413181(IEEE_P_3620187407, t7, t2, 20);
     t13 = t16;
     goto LAB15;
@@ -319,7 +319,7 @@ LAB10:    xsi_set_current_line(55, ng0);
     xsi_set_current_line(56, ng0);
     t1 = (t0 + 2632U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7472U);
+    t1 = (t0 + 7792U);
     t5 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t16, t2, t1, 1);
     t6 = (t16 + 12U);
     t17 = *((unsigned int *)t6);

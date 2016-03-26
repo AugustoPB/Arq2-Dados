@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Duplex_Semi-Sincrona/InterfaceSemiSincronaCPU.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Duplex_Semi-Sincrona/InterfaceSemiSincronaCPU.vhd";
 extern char *IEEE_P_3620187407;
 
 unsigned char ieee_p_3620187407_sub_2546382208_3965413181(char *, char *, char *, int );
@@ -146,14 +146,14 @@ static void work_a_2660114623_0152434546_p_3(char *t0)
 LAB0:    xsi_set_current_line(48, ng0);
     t2 = (t0 + 2312U);
     t3 = *((char **)t2);
-    t2 = (t0 + 10504U);
+    t2 = (t0 + 11004U);
     t4 = ieee_p_3620187407_sub_2546418145_3965413181(IEEE_P_3620187407, t3, t2, 7);
     if (t4 == 1)
         goto LAB5;
 
 LAB6:    t5 = (t0 + 2312U);
     t6 = *((char **)t5);
-    t5 = (t0 + 10504U);
+    t5 = (t0 + 11004U);
     t7 = ieee_p_3620187407_sub_2546418145_3965413181(IEEE_P_3620187407, t6, t5, 14);
     t1 = t7;
 
@@ -372,8 +372,8 @@ LAB14:    xsi_set_current_line(91, ng0);
     xsi_set_current_line(93, ng0);
     t1 = (t0 + 3272U);
     t2 = *((char **)t1);
-    t1 = (t0 + 10552U);
-    t5 = (t0 + 10678);
+    t1 = (t0 + 11052U);
+    t5 = (t0 + 11178);
     t7 = (t15 + 0U);
     t8 = (t7 + 0U);
     *((int *)t8) = 0;
@@ -404,7 +404,7 @@ LAB29:    goto LAB10;
 LAB15:    xsi_set_current_line(100, ng0);
     t1 = (t0 + 3592U);
     t2 = *((char **)t1);
-    t1 = (t0 + 10568U);
+    t1 = (t0 + 11068U);
     t3 = ieee_p_3620187407_sub_2546382208_3965413181(IEEE_P_3620187407, t2, t1, 5);
     if (t3 != 0)
         goto LAB31;
@@ -461,8 +461,8 @@ LAB16:    xsi_set_current_line(67, ng0);
 LAB19:    xsi_set_current_line(73, ng0);
     t1 = (t0 + 3752U);
     t5 = *((char **)t1);
-    t1 = (t0 + 10584U);
-    t6 = (t0 + 10670);
+    t1 = (t0 + 11084U);
+    t6 = (t0 + 11170);
     t8 = (t15 + 0U);
     t9 = (t8 + 0U);
     *((int *)t9) = 0;
@@ -555,7 +555,7 @@ LAB28:    xsi_set_current_line(94, ng0);
 LAB31:    xsi_set_current_line(101, ng0);
     t5 = (t0 + 3592U);
     t6 = *((char **)t5);
-    t5 = (t0 + 10568U);
+    t5 = (t0 + 11068U);
     t7 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t15, t6, t5, 1);
     t8 = (t15 + 12U);
     t17 = *((unsigned int *)t8);
