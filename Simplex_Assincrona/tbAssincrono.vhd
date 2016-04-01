@@ -55,7 +55,7 @@ begin
 	resetPeriferico <= '1', '0' after 100ns;
 	process
 	begin
-		clockPeriferico <= '0', '1' after 10ns;
+		clockPeriferico <= '0', '1' after 15ns;
 		wait for 30ns;
 	end process;
 
