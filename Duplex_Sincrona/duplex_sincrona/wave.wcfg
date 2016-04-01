@@ -14,52 +14,38 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="27" />
+   <WVObjectSize size="20" />
    <wvobject fp_name="/tbsincrono/MaquinaCPU/clock" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clock</obj_property>
       <obj_property name="ObjectShortName">clock</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">#c0c0c0</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/MaquinaCPU/reset" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/send" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">send</obj_property>
-      <obj_property name="ObjectShortName">send</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/receive" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">receive</obj_property>
-      <obj_property name="ObjectShortName">receive</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/prontoparaproximodado" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">prontoparaproximodado</obj_property>
-      <obj_property name="ObjectShortName">prontoparaproximodado</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfaceCPU/dadodamaq" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">dadodamaq[7:0]</obj_property>
       <obj_property name="ObjectShortName">dadodamaq[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/dataout" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/datain" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">datain[7:0]</obj_property>
-      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/prontoparaproximodado" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">prontoparaproximodado</obj_property>
+      <obj_property name="ObjectShortName">prontoparaproximodado</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfaceCPU/transmitirdado" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">transmitirdado</obj_property>
       <obj_property name="ObjectShortName">transmitirdado</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/dadoparamaq" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dadoparamaq[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dadoparamaq[7:0]</obj_property>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/receive" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">receive</obj_property>
+      <obj_property name="ObjectShortName">receive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/send" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfaceCPU/dadorecebido" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">dadorecebido</obj_property>
@@ -69,19 +55,34 @@
       <obj_property name="ElementShortName">estadotx</obj_property>
       <obj_property name="ObjectShortName">estadotx</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfaceCPU/dadoready" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">dadoready</obj_property>
-      <obj_property name="ObjectShortName">dadoready</obj_property>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/regdadomaq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regdadomaq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regdadomaq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfacePeriferico/clock" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clock</obj_property>
       <obj_property name="ObjectShortName">clock</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">#c0c0c0</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/reset" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/dadodamaq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dadodamaq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dadodamaq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/prontoparaproximodado" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">prontoparaproximodado</obj_property>
+      <obj_property name="ObjectShortName">prontoparaproximodado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/transmitirdado" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">transmitirdado</obj_property>
+      <obj_property name="ObjectShortName">transmitirdado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfacePeriferico/receive" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">receive</obj_property>
@@ -91,34 +92,6 @@
       <obj_property name="ElementShortName">send</obj_property>
       <obj_property name="ObjectShortName">send</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/prontoparaproximodado" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">prontoparaproximodado</obj_property>
-      <obj_property name="ObjectShortName">prontoparaproximodado</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/dadodamaq" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dadodamaq[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dadodamaq[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/dataout" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/datain" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">datain[7:0]</obj_property>
-      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/transmitirdado" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">transmitirdado</obj_property>
-      <obj_property name="ObjectShortName">transmitirdado</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/InterfacePeriferico/dadoparamaq" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dadoparamaq[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dadoparamaq[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
    <wvobject fp_name="/tbsincrono/InterfacePeriferico/dadorecebido" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">dadorecebido</obj_property>
       <obj_property name="ObjectShortName">dadorecebido</obj_property>
@@ -127,14 +100,9 @@
       <obj_property name="ElementShortName">estadotx</obj_property>
       <obj_property name="ObjectShortName">estadotx</obj_property>
    </wvobject>
-   <wvobject fp_name="/tbsincrono/MaquinaCPU/dador" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dador[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dador[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tbsincrono/MaquinaPeriferico/dador" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">dador[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dador[7:0]</obj_property>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/regdadomaq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regdadomaq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regdadomaq[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>
