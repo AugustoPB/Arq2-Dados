@@ -34,6 +34,7 @@ begin
 		if reset = '1' then
 			dadoRecebido <= '0';
 			accept <= '0';
+			estadoRx <= esperaSend;
 		elsif clock'event and clock = '1' then
 			case estadoRx is
 				when esperaSend =>

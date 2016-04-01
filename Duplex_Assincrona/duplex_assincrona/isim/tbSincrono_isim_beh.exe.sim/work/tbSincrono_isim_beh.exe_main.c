@@ -15,9 +15,9 @@
 struct XSI_INFO xsi_info;
 
 char *IEEE_P_2592010699;
-char *WORK_P_0147403949;
 char *STD_STANDARD;
 char *WORK_P_1462773124;
+char *WORK_P_0147403949;
 char *IEEE_P_3499444699;
 char *IEEE_P_3620187407;
 
@@ -44,9 +44,9 @@ int main(int argc, char **argv)
 
     IEEE_P_2592010699 = xsi_get_engine_memory("ieee_p_2592010699");
     xsi_register_ieee_std_logic_1164(IEEE_P_2592010699);
-    WORK_P_0147403949 = xsi_get_engine_memory("work_p_0147403949");
     STD_STANDARD = xsi_get_engine_memory("std_standard");
     WORK_P_1462773124 = xsi_get_engine_memory("work_p_1462773124");
+    WORK_P_0147403949 = xsi_get_engine_memory("work_p_0147403949");
     IEEE_P_3499444699 = xsi_get_engine_memory("ieee_p_3499444699");
     IEEE_P_3620187407 = xsi_get_engine_memory("ieee_p_3620187407");
 

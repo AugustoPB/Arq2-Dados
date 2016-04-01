@@ -9,6 +9,7 @@ entity CPU is
 		reset: in STD_LOGIC;
 		-- Interface com a interface de comunicacao
 		dadoParaInterface: out STD_LOGIC_VECTOR(7 downto 0);
+		prontoParaProximoDado: in STD_LOGIC;
 		transmitirDado: out STD_LOGIC
 	);
 end CPU;
@@ -25,7 +26,7 @@ begin
 			transmitirDado <= '0';
 			contador <= (others=>'0');
 		elsif clock'event and clock = '1' then
-			if contador < 20 then
+			if prontoParaProximoDado = '1' and contador < 20 then
 				transmitirDado <= '1';
 				dado <= dado + 1;
 				contador <= contador + 1;

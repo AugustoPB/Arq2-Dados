@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Simplex_Assincrona/Periferico.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Assincrona/Periferico.vhd";
 extern char *IEEE_P_3620187407;
 
 char *ieee_p_3620187407_sub_436279890_3965413181(char *, char *, char *, char *, int );
@@ -116,7 +116,7 @@ LAB10:    xsi_set_current_line(27, ng0);
     xsi_set_current_line(28, ng0);
     t1 = (t0 + 1832U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5392U);
+    t1 = (t0 + 5572U);
     t5 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t16, t2, t1, 1);
     t6 = (t16 + 12U);
     t17 = *((unsigned int *)t6);

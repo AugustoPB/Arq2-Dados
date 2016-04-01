@@ -67,7 +67,7 @@
       <outfile xil_pn:name="../Periferico.vhd"/>
       <outfile xil_pn:name="../tbSincrono.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1458968243" xil_pn:in_ck="-688853100424880436" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4749506181862156447" xil_pn:start_ts="1458968238">
+    <transform xil_pn:end_ts="1459381463" xil_pn:in_ck="-688853100424880436" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4749506181862156447" xil_pn:start_ts="1459381458">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -79,7 +79,7 @@
       <outfile xil_pn:name="tbSincrono_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1458968243" xil_pn:in_ck="-8847727582815244240" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7279398978191332050" xil_pn:start_ts="1458968243">
+    <transform xil_pn:end_ts="1459455196" xil_pn:in_ck="-8847727582815244240" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7279398978191332050" xil_pn:start_ts="1459455196">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>

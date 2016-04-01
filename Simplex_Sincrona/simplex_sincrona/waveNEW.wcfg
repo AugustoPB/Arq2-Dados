@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/simplex_sincrona/tbSincrono_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tbsincrono" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tbsincrono/MaquinaCPU/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaCPU/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaCPU/dado" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dado[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dado[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaCPU/prontoparaproximodado" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">prontoparaproximodado</obj_property>
+      <obj_property name="ObjectShortName">prontoparaproximodado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaCPU/transmitirdado" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">transmitirdado</obj_property>
+      <obj_property name="ObjectShortName">transmitirdado</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfaceCPU/send" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaPeriferico/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaPeriferico/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaPeriferico/dado" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dado[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dado[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/MaquinaPeriferico/dadorecebido" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dadorecebido</obj_property>
+      <obj_property name="ObjectShortName">dadorecebido</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/dadoparamaq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dadoparamaq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dadoparamaq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbsincrono/InterfacePeriferico/receive" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">receive</obj_property>
+      <obj_property name="ObjectShortName">receive</obj_property>
+   </wvobject>
+</wave_config>

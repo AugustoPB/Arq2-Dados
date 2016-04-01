@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Simplex_Assincrona/InterfaceAssincronaPeriferico.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Assincrona/InterfaceAssincronaPeriferico.vhd";
 
 
 
@@ -116,9 +116,17 @@ LAB2:    xsi_set_current_line(35, ng0);
     t7 = *((char **)t6);
     *((unsigned char *)t7) = (unsigned char)2;
     xsi_driver_first_trans_fast_port(t1);
+    xsi_set_current_line(37, ng0);
+    t1 = (t0 + 4328);
+    t2 = (t1 + 56U);
+    t5 = *((char **)t2);
+    t6 = (t5 + 56U);
+    t7 = *((char **)t6);
+    *((unsigned char *)t7) = (unsigned char)0;
+    xsi_driver_first_trans_fast(t1);
     goto LAB3;
 
-LAB5:    xsi_set_current_line(38, ng0);
+LAB5:    xsi_set_current_line(39, ng0);
     t2 = (t0 + 2152U);
     t6 = *((char **)t2);
     t11 = *((unsigned char *)t6);
@@ -134,7 +142,7 @@ LAB7:    t2 = (t0 + 1032U);
 
 LAB10:    goto LAB3;
 
-LAB11:    xsi_set_current_line(40, ng0);
+LAB11:    xsi_set_current_line(41, ng0);
     t7 = (t0 + 1352U);
     t8 = *((char **)t7);
     t12 = *((unsigned char *)t8);
@@ -145,7 +153,7 @@ LAB11:    xsi_set_current_line(40, ng0);
 LAB16:
 LAB15:    goto LAB10;
 
-LAB12:    xsi_set_current_line(48, ng0);
+LAB12:    xsi_set_current_line(49, ng0);
     t1 = (t0 + 4200);
     t2 = (t1 + 56U);
     t5 = *((char **)t2);
@@ -153,7 +161,7 @@ LAB12:    xsi_set_current_line(48, ng0);
     t7 = *((char **)t6);
     *((unsigned char *)t7) = (unsigned char)2;
     xsi_driver_first_trans_fast_port(t1);
-    xsi_set_current_line(49, ng0);
+    xsi_set_current_line(50, ng0);
     t1 = (t0 + 1352U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
@@ -164,20 +172,20 @@ LAB12:    xsi_set_current_line(48, ng0);
 LAB19:
 LAB18:    goto LAB10;
 
-LAB13:    xsi_set_current_line(53, ng0);
+LAB13:    xsi_set_current_line(54, ng0);
     goto LAB10;
 
-LAB14:    xsi_set_current_line(41, ng0);
+LAB14:    xsi_set_current_line(42, ng0);
     t7 = (t0 + 1672U);
     t14 = *((char **)t7);
-    t7 = (t0 + 4328);
+    t7 = (t0 + 4392);
     t15 = (t7 + 56U);
     t16 = *((char **)t15);
     t17 = (t16 + 56U);
     t18 = *((char **)t17);
     memcpy(t18, t14, 8U);
     xsi_driver_first_trans_fast(t7);
-    xsi_set_current_line(42, ng0);
+    xsi_set_current_line(43, ng0);
     t1 = (t0 + 4264);
     t2 = (t1 + 56U);
     t5 = *((char **)t2);
@@ -185,7 +193,7 @@ LAB14:    xsi_set_current_line(41, ng0);
     t7 = *((char **)t6);
     *((unsigned char *)t7) = (unsigned char)3;
     xsi_driver_first_trans_fast_port(t1);
-    xsi_set_current_line(43, ng0);
+    xsi_set_current_line(44, ng0);
     t1 = (t0 + 4200);
     t2 = (t1 + 56U);
     t5 = *((char **)t2);
@@ -193,8 +201,8 @@ LAB14:    xsi_set_current_line(41, ng0);
     t7 = *((char **)t6);
     *((unsigned char *)t7) = (unsigned char)3;
     xsi_driver_first_trans_fast_port(t1);
-    xsi_set_current_line(44, ng0);
-    t1 = (t0 + 4392);
+    xsi_set_current_line(45, ng0);
+    t1 = (t0 + 4328);
     t2 = (t1 + 56U);
     t5 = *((char **)t2);
     t6 = (t5 + 56U);
@@ -203,7 +211,7 @@ LAB14:    xsi_set_current_line(41, ng0);
     xsi_driver_first_trans_fast(t1);
     goto LAB15;
 
-LAB17:    xsi_set_current_line(50, ng0);
+LAB17:    xsi_set_current_line(51, ng0);
     t1 = (t0 + 4264);
     t5 = (t1 + 56U);
     t6 = *((char **)t5);
@@ -211,8 +219,8 @@ LAB17:    xsi_set_current_line(50, ng0);
     t8 = *((char **)t7);
     *((unsigned char *)t8) = (unsigned char)2;
     xsi_driver_first_trans_fast_port(t1);
-    xsi_set_current_line(51, ng0);
-    t1 = (t0 + 4392);
+    xsi_set_current_line(52, ng0);
+    t1 = (t0 + 4328);
     t2 = (t1 + 56U);
     t5 = *((char **)t2);
     t6 = (t5 + 56U);

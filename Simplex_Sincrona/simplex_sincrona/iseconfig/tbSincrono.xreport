@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-03-24T20:18:04</DateModified>
+  <DateModified>2016-03-31T17:06:42</DateModified>
   <ModuleName>tbSincrono</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Augusto/Desktop/Simplex_Sincrona/simplex_sincrona/iseconfig/tbSincrono.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Augusto/Desktop/Simplex_Sincrona/simplex_sincrona\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/simplex_sincrona/iseconfig/tbSincrono.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/simplex_sincrona\</ImplementationReportsDirectory>
   <DateInitialized>2016-03-24T19:06:59</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

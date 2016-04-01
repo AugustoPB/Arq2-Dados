@@ -3,7 +3,7 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Users/Augusto/Desktop/Simplex_Sincrona/simplex_sincrona/tbSincrono_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/simplex_sincrona/tbSincrono_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="std_logic_1164" />
             <top_module name="std_logic_arith" />
@@ -24,6 +24,7 @@
    <wvobject fp_name="/tbsincrono/InterfaceCPU/dadodamaq" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">dadodamaq[7:0]</obj_property>
       <obj_property name="ObjectShortName">dadodamaq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfaceCPU/transmitirdado" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">transmitirdado</obj_property>
@@ -32,6 +33,7 @@
    <wvobject fp_name="/tbsincrono/InterfaceCPU/dataout" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">dataout[7:0]</obj_property>
       <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/InterfaceCPU/send" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">send</obj_property>
@@ -44,9 +46,11 @@
    <wvobject fp_name="/tbsincrono/InterfacePeriferico/dadoparamaq" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">dadoparamaq[7:0]</obj_property>
       <obj_property name="ObjectShortName">dadoparamaq[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tbsincrono/MaquinaPeriferico/dado" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">dado[7:0]</obj_property>
       <obj_property name="ObjectShortName">dado[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>

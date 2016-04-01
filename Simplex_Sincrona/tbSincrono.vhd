@@ -37,6 +37,7 @@ begin
 		clock => clockCPU,
 		reset => resetCPU,
 		dadoParaInterface => dadoCPU,
+		prontoParaProximoDado => prontoParaProximoDadoCPU,
 		transmitirDado => transmitirDadoCPU
 	);
 	InterfaceCPU: entity work.InterfaceCPU port map
@@ -46,6 +47,7 @@ begin
 		send => send,
 		dataOut => dado,
 		dadoDaMaq => dadoCPU,
+		prontoParaProximoDado => prontoParaProximoDadoCPU,
 		transmitirDado => transmitirDadoCPU
 	);
 

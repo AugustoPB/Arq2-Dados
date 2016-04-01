@@ -11,6 +11,7 @@ entity InterfaceCPU is
 		dataOut : out STD_LOGIC_VECTOR(7 downto 0);
 		-- Interface com a maquina local
 		dadoDaMaq : in STD_LOGIC_VECTOR(7 downto 0);
+		prontoParaProximoDado: out STD_LOGIC;
 		transmitirDado: in STD_LOGIC
 	);
 end InterfaceCPU;
@@ -19,6 +20,7 @@ architecture InterfaceCPU of InterfaceCPU is
 	signal regDataOut: STD_LOGIC_VECTOR(7 downto 0);
 begin
 	dataOut <= regDataOut;
+	prontoParaProximoDado <= '1';
 	Transmissao: process(clock, reset)
 	begin
 		if reset = '1' then

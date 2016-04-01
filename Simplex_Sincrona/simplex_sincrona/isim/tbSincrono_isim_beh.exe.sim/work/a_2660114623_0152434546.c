@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Simplex_Sincrona/InterfaceSincronaCPU.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/InterfaceSincronaCPU.vhd";
 
 
 
@@ -35,11 +35,11 @@ static void work_a_2660114623_0152434546_p_0(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(21, ng0);
+LAB0:    xsi_set_current_line(22, ng0);
 
-LAB3:    t1 = (t0 + 1992U);
+LAB3:    t1 = (t0 + 2152U);
     t2 = *((char **)t1);
-    t1 = (t0 + 3816);
+    t1 = (t0 + 4224);
     t3 = (t1 + 56U);
     t4 = *((char **)t3);
     t5 = (t4 + 56U);
@@ -47,7 +47,7 @@ LAB3:    t1 = (t0 + 1992U);
     memcpy(t6, t2, 8U);
     xsi_driver_first_trans_fast_port(t1);
 
-LAB2:    t7 = (t0 + 3720);
+LAB2:    t7 = (t0 + 4128);
     *((int *)t7) = 1;
 
 LAB1:    return;
@@ -56,6 +56,30 @@ LAB4:    goto LAB2;
 }
 
 static void work_a_2660114623_0152434546_p_1(char *t0)
+{
+    char *t1;
+    char *t2;
+    char *t3;
+    char *t4;
+    char *t5;
+
+LAB0:    xsi_set_current_line(23, ng0);
+
+LAB3:    t1 = (t0 + 4288);
+    t2 = (t1 + 56U);
+    t3 = *((char **)t2);
+    t4 = (t3 + 56U);
+    t5 = *((char **)t4);
+    *((unsigned char *)t5) = (unsigned char)3;
+    xsi_driver_first_trans_fast_port(t1);
+
+LAB2:
+LAB1:    return;
+LAB4:    goto LAB2;
+
+}
+
+static void work_a_2660114623_0152434546_p_2(char *t0)
 {
     char *t1;
     char *t2;
@@ -70,7 +94,7 @@ static void work_a_2660114623_0152434546_p_1(char *t0)
     char *t11;
     char *t12;
 
-LAB0:    xsi_set_current_line(24, ng0);
+LAB0:    xsi_set_current_line(26, ng0);
     t1 = (t0 + 1192U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
@@ -88,8 +112,8 @@ LAB8:    t3 = (unsigned char)0;
 LAB9:    if (t3 != 0)
         goto LAB5;
 
-LAB6:    xsi_set_current_line(30, ng0);
-    t1 = (t0 + 1832U);
+LAB6:    xsi_set_current_line(32, ng0);
+    t1 = (t0 + 1992U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
     t4 = (t3 == (unsigned char)3);
@@ -98,12 +122,12 @@ LAB6:    xsi_set_current_line(30, ng0);
 
 LAB12:
 LAB11:
-LAB3:    t1 = (t0 + 3736);
+LAB3:    t1 = (t0 + 4144);
     *((int *)t1) = 1;
 
 LAB1:    return;
-LAB2:    xsi_set_current_line(25, ng0);
-    t1 = (t0 + 3880);
+LAB2:    xsi_set_current_line(27, ng0);
+    t1 = (t0 + 4352);
     t5 = (t1 + 56U);
     t6 = *((char **)t5);
     t7 = (t6 + 56U);
@@ -112,18 +136,18 @@ LAB2:    xsi_set_current_line(25, ng0);
     xsi_driver_first_trans_fast_port(t1);
     goto LAB3;
 
-LAB5:    xsi_set_current_line(27, ng0);
+LAB5:    xsi_set_current_line(29, ng0);
     t2 = (t0 + 1672U);
     t6 = *((char **)t2);
-    t2 = (t0 + 3944);
+    t2 = (t0 + 4416);
     t7 = (t2 + 56U);
     t8 = *((char **)t7);
     t11 = (t8 + 56U);
     t12 = *((char **)t11);
     memcpy(t12, t6, 8U);
     xsi_driver_first_trans_fast(t2);
-    xsi_set_current_line(28, ng0);
-    t1 = (t0 + 3880);
+    xsi_set_current_line(30, ng0);
+    t1 = (t0 + 4352);
     t2 = (t1 + 56U);
     t5 = *((char **)t2);
     t6 = (t5 + 56U);
@@ -139,8 +163,8 @@ LAB7:    t2 = (t0 + 1032U);
     t3 = t10;
     goto LAB9;
 
-LAB10:    xsi_set_current_line(31, ng0);
-    t1 = (t0 + 3880);
+LAB10:    xsi_set_current_line(33, ng0);
+    t1 = (t0 + 4352);
     t5 = (t1 + 56U);
     t6 = *((char **)t5);
     t7 = (t6 + 56U);
@@ -154,7 +178,7 @@ LAB10:    xsi_set_current_line(31, ng0);
 
 extern void work_a_2660114623_0152434546_init()
 {
-	static char *pe[] = {(void *)work_a_2660114623_0152434546_p_0,(void *)work_a_2660114623_0152434546_p_1};
+	static char *pe[] = {(void *)work_a_2660114623_0152434546_p_0,(void *)work_a_2660114623_0152434546_p_1,(void *)work_a_2660114623_0152434546_p_2};
 	xsi_register_didat("work_a_2660114623_0152434546", "isim/tbSincrono_isim_beh.exe.sim/work/a_2660114623_0152434546.didat");
 	xsi_register_executes(pe);
 }

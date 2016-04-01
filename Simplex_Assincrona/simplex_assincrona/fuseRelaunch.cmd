@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Augusto/Desktop/Simplex_Assincrona/simplex_assincrona/tbAssincrono_isim_beh.exe" -prj "C:/Users/Augusto/Desktop/Simplex_Assincrona/simplex_assincrona/tbAssincrono_beh.prj" "work.tbAssincrono" 
+-intstyle "ise" -incremental -o "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Assincrona/simplex_assincrona/tbAssincrono_isim_beh.exe" -prj "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Assincrona/simplex_assincrona/tbAssincrono_beh.prj" "work.tbAssincrono" 

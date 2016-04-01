@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Simplex_Sincrona/InterfaceSincronaPeriferico.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/InterfaceSincronaPeriferico.vhd";
 
 
 

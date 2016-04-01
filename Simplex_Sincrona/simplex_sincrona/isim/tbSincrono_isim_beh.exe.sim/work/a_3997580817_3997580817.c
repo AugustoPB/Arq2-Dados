@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/Simplex_Sincrona/tbSincrono.vhd";
+static const char *ng0 = "C:/Users/Augusto/Documents/GitHub/Arq2-Dados/Simplex_Sincrona/tbSincrono.vhd";
 
 
 
@@ -131,7 +131,7 @@ static void work_a_3997580817_3997580817_p_2(char *t0)
     char *t10;
     char *t11;
 
-LAB0:    xsi_set_current_line(52, ng0);
+LAB0:    xsi_set_current_line(54, ng0);
 
 LAB3:    t1 = (t0 + 5208);
     t2 = (t1 + 56U);
@@ -177,7 +177,7 @@ LAB0:    t1 = (t0 + 4696U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(55, ng0);
+LAB2:    xsi_set_current_line(57, ng0);
     t2 = (t0 + 5272);
     t3 = (t2 + 56U);
     t4 = *((char **)t3);
@@ -193,7 +193,7 @@ LAB2:    xsi_set_current_line(55, ng0);
     t12 = *((char **)t11);
     *((unsigned char *)t12) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t8, 0U, 1, t7);
-    xsi_set_current_line(56, ng0);
+    xsi_set_current_line(58, ng0);
     t7 = (30 * 1000LL);
     t2 = (t0 + 4504);
     xsi_process_wait(t2, t7);
